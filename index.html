@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>TrendSphere - AI News & Trends</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Inter,Segoe UI,sans-serif;
+}
+
+body{
+background:#050816;
+color:white;
+overflow-x:hidden;
+}
+
+.hero{
+min-height:100vh;
+padding:40px 20px;
+position:relative;
+background:
+radial-gradient(circle at top right,#8b5cf655,transparent 40%),
+radial-gradient(circle at bottom left,#3b82f655,transparent 40%),
+#050816;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:12px;
+margin-bottom:50px;
+}
+
+.logo-icon{
+width:60px;
+height:60px;
+border-radius:18px;
+background:linear-gradient(135deg,#3b82f6,#a855f7);
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:28px;
+box-shadow:0 0 30px rgba(168,85,247,.4);
+}
+.app-logo{
+width:90px;
+height:90px;
+border-radius:24px;
+box-shadow:
+0 0 35px rgba(168,85,247,.45),
+0 0 60px rgba(59,130,246,.35);
+}
+
+.logo h1{
+font-size:40px;
+font-weight:800;
+}
+
+.logo span{
+background:linear-gradient(90deg,#3b82f6,#d946ef);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+.hero-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:60px;
+align-items:center;
+}
+
+.hero-content h2{
+font-size:72px;
+line-height:1.05;
+font-weight:900;
+margin-bottom:20px;
+}
+
+.gradient{
+background:linear-gradient(90deg,#3b82f6,#d946ef);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+.hero-content p{
+font-size:24px;
+line-height:1.7;
+color:#cbd5e1;
+margin-bottom:35px;
+}
+
+.badge{
+display:inline-block;
+padding:14px 28px;
+border-radius:999px;
+background:linear-gradient(90deg,#2563eb,#9333ea);
+font-weight:700;
+margin-bottom:30px;
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:20px;
+margin-top:30px;
+}
+
+.feature{
+background:rgba(255,255,255,.05);
+backdrop-filter:blur(15px);
+border:1px solid rgba(255,255,255,.08);
+padding:24px;
+border-radius:24px;
+}
+
+.feature h3{
+margin-bottom:10px;
+font-size:20px;
+}
+
+.feature p{
+font-size:15px;
+color:#94a3b8;
+}
+
+.phone{
+display:flex;
+justify-content:center;
+}
+
+.phone img{
+width:100%;
+max-width:420px;
+border-radius:40px;
+box-shadow:
+0 0 60px rgba(139,92,246,.35),
+0 0 100px rgba(59,130,246,.25);
+}
+
+.links{
+margin-top:60px;
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.btn{
+padding:16px 28px;
+border-radius:16px;
+text-decoration:none;
+font-weight:700;
+}
+
+.primary{
+background:linear-gradient(90deg,#3b82f6,#9333ea);
+color:white;
+}
+
+.secondary{
+background:rgba(255,255,255,.08);
+color:white;
+border:1px solid rgba(255,255,255,.1);
+}
+
+footer{
+text-align:center;
+padding:40px 20px;
+color:#94a3b8;
+border-top:1px solid rgba(255,255,255,.08);
+}
+
+@media(max-width:900px){
+
+.hero-grid{
+grid-template-columns:1fr;
+}
+
+.hero-content h2{
+font-size:52px;
+}
+
+.features{
+grid-template-columns:1fr;
+}
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+<div class="container">
+
+<div class="logo">
+<div class="logo">
+    <img src="assets/app-icon.png" alt="TrendSphere Logo" class="app-logo">
+    <h1>Trend<span>Sphere</span></h1>
+</div>
+<h1>Trend<span>Sphere</span></h1>
+</div>
+
+<div class="hero-grid">
+
+<div class="hero-content">
+
+<div class="badge">
+🚀 Coming Soon on Google Play
+</div>
+
+<h2>
+Discover.<br>
+<span class="gradient">Learn.</span><br>
+Build Smarter.
+</h2>
+
+<p>
+Stay ahead with the latest AI News, Trending Repositories,
+AI Models, Videos and Developer Resources — all in one place.
+</p>
+
+<div class="features">
+
+<div class="feature">
+<h3>📰 AI News</h3>
+<p>Real-time updates from OpenAI, Google, Anthropic and more.</p>
+</div>
+
+<div class="feature">
+<h3>📦 Trending Repositories</h3>
+<p>Explore GitHub projects shaping the future of AI.</p>
+</div>
+
+<div class="feature">
+<h3>🤖 AI Models</h3>
+<p>Discover popular LLMs and machine learning models.</p>
+</div>
+
+<div class="feature">
+<h3>🎥 AI Videos</h3>
+<p>Watch curated AI content from leading creators.</p>
+</div>
+
+</div>
+
+<div class="links">
+<a href="privacy-policy.html" class="btn primary">
+Privacy Policy
+</a>
+
+<a href="app-ads.txt" class="btn secondary">
+app-ads.txt
+</a>
+</div>
+
+</div>
+
+<div class="phone">
+
+<img src="assets/trendsphere-home.png" alt="TrendSphere App">
+
+</div>
+
+</div>
+
+</div>
+</section>
+
+<footer>
+TrendSphere © 2026 • AI News, Repositories, Models & Videos
+</footer>
+
+</body>
+</html>
